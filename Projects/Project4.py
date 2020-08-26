@@ -1,10 +1,5 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# ## Mini Project # 3 - Counting Circles and Ellipses 
-
-# In[ ]:
-
+#Sarvesh kumar sonkar
 
 import cv2
 import numpy as np
@@ -74,46 +69,6 @@ cv2.imshow("Filtering Circular Blobs Only", blobs)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# **NOTE** OpenCV 3.XX, use this line of code for intializing our blob detector
-# 
-# `detector = cv2.SimpleBlobDetector_create(params)`
-# 
-# OpenCV 2.4.X users use this:
-# 
-# `detector = cv2.SimpleBlobDetector()`
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
